@@ -3,7 +3,7 @@ export default interface UserFormData {
     last_name: string;
     email: string;
     id?: number;
-    password?: string;
-    pasword_confirmation?: string;
+    password: string;
+    pasword_confirmation: string;
 }
 
